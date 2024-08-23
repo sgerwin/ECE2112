@@ -1,0 +1,48 @@
+Problem 1
+#Input of word
+word = input("Enter the word:")
+
+#function sorts the word alphabetically
+alphabet_soup = "".join(sorted(word))
+
+#Output
+print(alphabet_soup)
+
+Problem 2
+#function that replaces words with emoticon
+def emotify(sentence):
+    if("smile" in sentence):
+        sentence=sentence.replace("smile",":)")
+    if("grin" in sentence):
+        sentence=sentence.replace("grin",":D")
+    if("sad" in sentence):
+        sentence=sentence.replace("sad",":((")
+    if("mad" in sentence):
+        sentence=sentence.replace("mad",">:(")
+        
+    print(sentence)
+    
+#Input (function where you type the sentence including the emoticon)
+def main():
+    output = input("Enter sentence: ")
+    emotify(output)
+#Output (changes the words into emoticon)
+main()
+
+Problem 3
+#input of values
+writeyourcodehere = []
+n = int(input("Enter the no. of elements in the list: "))
+for i in range(0,n):
+    x = int(input("Enter the values of the list: "))
+    writeyourcodehere.append(x)
+
+#stores the values depending if first, middle ,last using index
+first = writeyourcodehere[0]
+middle = writeyourcodehere[1:n-1]
+last = writeyourcodehere[-1]
+
+#Output
+print("First: ", first)
+print("Middle: ", middle)
+print("Last: ", last)
