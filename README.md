@@ -92,8 +92,6 @@ Last:  6
 
 ## Authors
 
-Contributors names and contact info
-
 Sherwin Miguel C. Mapaye
 
 ## Version History
