@@ -7,11 +7,13 @@ To create a Python script/code in the Jupyter Notebook to do the given problems.
 1. ALPHABET SOUP PROBLEM
    - Create a function that takes a string and returns a string with its lettersin alphabetical order.
    - Example: alphabet_soup(“hacker”) ➞ acehkr
+
 2. EMOTICON PROBLEM
    - EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad
      with their corresponding emoticon:
      
      Example: emotify(“Make me smile”) ➞ Make me :)
+     
 3. UNPACKING LIST PROBLEM
    - Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element.
      Then print all three variables.
